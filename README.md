@@ -14,15 +14,15 @@ IMPORTANT: <br>
 
 # The App
 
-## Install
+### Install
 Make sure you have a modern browser on your machine.
 
 Clone or Download this repo to your local machine.
 
-## Test
+### Test
 Run `SpecRunner.html` in you favourite web browser.
 
-## Use
+### Use
 To use the app open your favourite browser, I've been using Chrome <br>
   i. Run `taboolaWidget.html` <br>
   ii. Open dev tools in your browser (mac `⌥  + ⌘ + i`)<br>
@@ -30,7 +30,7 @@ To use the app open your favourite browser, I've been using Chrome <br>
 
 A screenshot example: (picture below)
 
-### User Stories
+## User Stories
 I created the following user stories: <br>
 
 `To view the widget on my desktop or tablet,
