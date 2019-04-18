@@ -33,18 +33,27 @@ A screenshot example: (picture below)
 ## User Stories
 I created the following user stories: <br>
 
-`To view the widget on my desktop or tablet,
-I would like widgets to display as three columns and two rows (3x2).` <br>
+```
+To view the widget on my desktop or tablet,
+I would like widgets to display as three columns and two rows (3x2).
 
-`To identify different widgets,
-I want each item to contain a title and branding below each image.` <br>
+To identify different widgets,
+I want each item to contain a title and branding below each image.
 
-`To view widgets on my mobile,
-I would like widgets to display as a column with six rows (1x6).`<br>
+To view widgets on my mobile,
+I would like widgets to display as a column with six rows (1x6).
 
-`To access the a widget,
-I would like the image, title and branding text to be clickable links that load the url.`<br>
+To access the a widget,
+I would like the image, title and branding text to be clickable links that load the url.
+```
 
 ## Approach
+The primary reason I enjoyed this challenge is because I have predominately been working with javascript. I was confident the specification could be delivered.
+I am comfortable working with Javascript now, which allows me to dedicate just as much thought to my process and methodology. <br>
+
+My approach: <br>
+- Read and understand the specification
+- Translate the specification into key user stories
+
 
 ## Areas of Improvement
