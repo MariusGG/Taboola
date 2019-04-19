@@ -1,0 +1,32 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #fcfcfc;
+    margin: 10px;
+    padding: 0;
+}
+.col-3x2 {
+  float: left;
+  width: 28%;
+  margin: 10px;
+  padding: 0;
+
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.pg-title {
+font-weight: 900;
+color: #0050c8;
+font-size: 2.5rem;
+margin: 10px;
+padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .col-3x2 {
+    width: 100%;
+  }
