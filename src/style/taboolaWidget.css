@@ -41,6 +41,10 @@ margin: 20px 0;
 margin-left: 20px;
 padding: 0;
 }
+.title, .brand {
+  margin: 20px 0;
+}
+
 
 
 @media screen and (max-width: 600px) {
