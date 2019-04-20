@@ -1,31 +1,12 @@
-// //ADDING H1 FOR A IMAGE, TITLE & BRAND TAGS
-// const getTaboolaWidgets = document.querySelector('#taboola-widgets').children;
-//
-// for(i = 0; i < getTaboolaWidgets.length; i++) {
-//   let x = getTaboolaWidgets[i].children;
-//   for(e = 0; e < x.length; e++){
-//       let createTitle = document.createElement('h1');
-//       let createBranding = document.createElement('p');
-//       let createImg = document.createElement('img');
-//       createTitle.setAttribute('class', 'title');
-//       createBranding.setAttribute('class', 'branding');
-//       createImg.setAttribute('class', 'images');
-//
-//
-//       (x[e].append(createImg, createTitle, createBranding ));
-//     }
-//   }
-//
-// const getTaboolaWidgets = document.querySelector('#taboola-widgets').children;
-//
-// const getImagetags = document.querySelectorAll('img');
-// getImagetags.forEach((item) => {
-//   console.log(item)
-// })
+const api = 'https://api.taboola.com/1.2/json/apitestaccount/recommendations.get?app.type=web&app.apikey=7be65fc78e52c11727793f68b06d782cff9ede3c&source.id=%2Fdigiday-publishing-summit%2F&source.url=https%3A%2F%2Fblog.taboola.com%2Fdigiday-publishing-summit%2F&source.type=text&placement.organic-type=mix&placement.visible=true&placement.available=true&placement.rec-count=6&placement.name=Below%20Article%20Thumbnails&placement.thumbnail.width=640&placement.thumbnail.height=480&user.session=init';
 
-// let x = Array.from(getImagetags)
-//  for(a = 0; a < x.length; a++) {
-//    let createAnchor = document.createElement('a');
-//    createAnchor.appendChild(x[a])
-//    console.log(x[a]);
-//  }
+  fetch(api)
+     .then(function (response) {
+          return response.json();
+      })
+      .then(function (data) {
+        console.log(data.list)
+      })
+      .catch(function (err) {
+          console.log("Something went wrong!", err);
+      });

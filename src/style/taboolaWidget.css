@@ -14,7 +14,7 @@ body {
 .col-3x2 {
   float: left;
   width: 25%;
-	margin: 1% 0 1% 2%;
+	margin: 1% 0 1% 5%;
   padding: 1%;
 }
 .row {
@@ -33,6 +33,7 @@ zoom: 1;
 /*----------------------------------*/
 /*------    page content     -------*/
 /*----------------------------------*/
+
 .pg-title {
 font-weight: 900;
 color: #0050c8;
@@ -42,7 +43,7 @@ margin-left: 20px;
 padding: 0;
 }
 .images {
-  
+
 }
 .title, .brand {
   margin: 20px 0;
