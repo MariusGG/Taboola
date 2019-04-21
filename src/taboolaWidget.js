@@ -67,3 +67,12 @@ function displayData(data) {
 
   });
 }
+
+// my truncate function to be used on the titles to limit it to 40 characters
+function truncateTitle(string){
+   if (string.length > 40){
+    return string.substring(0,40)+'...';
+  }else{
+      return string;
+    }
+}
