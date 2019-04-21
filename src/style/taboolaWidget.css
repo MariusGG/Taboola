@@ -11,9 +11,9 @@ body {
 /*----------------------------------*/
 /*------    columns & row    -------*/
 /*----------------------------------*/
-.col-3x2 {
+/* .col-3x2 {
   float: left;
-  width: 25%;
+  width: 50%;
 	margin: 1% 0 1% 5%;
   padding: 1%;
 }
@@ -28,7 +28,7 @@ content: "";
 display: table;
 clear: both;
 zoom: 1;
-}
+} */
 
 /*----------------------------------*/
 /*------    page content     -------*/
@@ -45,16 +45,35 @@ padding: 0;
 .images {
 
 }
-.title, .brand {
-  margin: 20px 0;
+#taboola-widgets {
+    max-width: 768px;
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    grid-gap: 20px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  a:link {
+      color:black;
+      background-color: transparent;
+      text-decoration: none;
+  }
+
+  a h3.title:hover {
+      color:#cb0000;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+.branding {
+  color: #cb0000;
+  margin: 0px
 }
 
 
-
 @media screen and (max-width: 600px) {
-
-  .row { padding: 0 4%; }
-  .col-3x2 {
-      width: 100%;
-      margin: 0 0 4% 0;
-  }
