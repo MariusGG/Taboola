@@ -52,8 +52,16 @@ h6 span {
   border-left: 4px solid #0077b5;
   margin-top: 5px;
   padding-left: 10px;
+  margin-bottom: 10px
 }
 
+p {
+  font-size: 0.6em;
+  font-style: italic;
+  font-weight: bold;
+  color: #0077b5;
+  text-transform: uppercase;
+}
 
 
 @media screen and (max-width: 600px) {

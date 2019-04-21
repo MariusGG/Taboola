@@ -12,7 +12,6 @@ fetch(api)
 });
 
 const widgetDisplayBoard = document.querySelector('#taboola-widgets');
-widgetDisplayBoard.className = 'row';
 function findTag(tag) {
   return document.querySelector(tag);
 }
@@ -51,6 +50,13 @@ function displayData(data) {
     addingUrl(branding, item.url)
     branding.innerHTML = `<h5 class="branding">${item.branding}</h5>`
     appendingHtmlTag(container, branding);
+
+    if(item.categories){
+      let categories = createHtmlTag('p')
+      categories.className += "categories"
+      categories.innerHTML = `${item.categories.join()}`
+      appendingHtmlTag(container, categories);
+    }
 
     let title = createHtmlTag('a')
     addingUrl(title, item.url)
