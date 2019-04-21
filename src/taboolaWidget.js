@@ -30,9 +30,9 @@ function addingUrl(tag, url) {
 }
 
 let header = findTag('header');
-let createH1 = createHtmlTag('h1');
-let title = createTextNode('Taboola Widget Glossary');
-appendingHtmlTag(createH1, title);
+let createH1 = createHtmlTag('h6');
+createH1.innerHTML =`<span>Taboola</span>`;
+createH1.innerHTML += ' Feed';
 createH1.className = 'pg-title';
 appendingHtmlTag(header, createH1);
 
@@ -41,8 +41,6 @@ function displayData(data) {
 
   return collectedData.map((item) => {
     let container = createHtmlTag('div');
-    container.className += "col-3x2";
-
 
     let img = createHtmlTag('a')
     addingUrl(img, item.url)

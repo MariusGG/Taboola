@@ -1,6 +1,5 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Boogaloo');
 
-}
 body {
     font-family: arial, helvetica, sans-serif;
     font-size: 14px;
@@ -8,27 +7,6 @@ body {
     margin: 10px;
     padding: 0;
 }
-/*----------------------------------*/
-/*------    columns & row    -------*/
-/*----------------------------------*/
-/* .col-3x2 {
-  float: left;
-  width: 50%;
-	margin: 1% 0 1% 5%;
-  padding: 1%;
-}
-.row {
-  margin: auto;
-  width: 90%;
-  padding: 10px;
-}
-
-.row:after {
-content: "";
-display: table;
-clear: both;
-zoom: 1;
-} */
 
 /*----------------------------------*/
 /*------    page content     -------*/
@@ -37,22 +15,21 @@ zoom: 1;
 .pg-title {
 font-weight: 900;
 color: #0050c8;
-font-size: 2.5rem;
-margin: 20px 0;
-margin-left: 20px;
-padding: 0;
+margin: 20px 0 0 20px;
 }
-.images {
+h6 span {
+  font-family: 'Audiowide', arial, helvetica, sans-serif ;
+  font-size: 1.5em;
+}
 
-}
 #taboola-widgets {
     max-width: 768px;
     margin: 30px auto;
+    float: left;
     padding: 0 20px;
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
     grid-gap: 20px;
   }
   img {
@@ -65,15 +42,30 @@ padding: 0;
       text-decoration: none;
   }
 
-  a h3.title:hover {
-      color:#cb0000;
+    .title:hover {
+      color:#0077b5;
       background-color: transparent;
       text-decoration: underline;
   }
 .branding {
-  color: #cb0000;
-  margin: 0px
+  color: #0077b5;
+  border-left: 4px solid #0077b5;
+  margin-top: 5px;
+  padding-left: 10px;
 }
 
 
+
 @media screen and (max-width: 600px) {
+
+  a h5 {
+  font-size: 1em;
+  }
+  #taboola-widgets {
+    grid-template-columns: none;
+    float: none;
+    }
+  img {
+      width: 80%;
+    }
+}
