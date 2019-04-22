@@ -7,9 +7,9 @@ For reference, you can see a live responsive Taboola widget at the bottom of the
 IMPORTANT: <br>
 *You can only use pure HTML, CSS, and JavaScript to build and display the widget. Do not use any external libraries (e.g. jQuery, Bootstrap).*
 
-<p><img src="./public/test_coverage.png">put image here</p>
+<div><img src="./public/screenshot1.png" alt="taboola widget feed"></div>
 
-*Tags: HTML, CSS, Javascript, Jasmine*
+*Tags: HTML, CSS, Javascript*
 
 
 # The App
@@ -19,16 +19,14 @@ Make sure you have a modern browser on your machine.
 
 Clone or Download this repo to your local machine.
 
-### Test
-Run `SpecRunner.html` in you favourite web browser.
-
 ### Use
-To use the app open your favourite browser, I've been using Chrome <br>
+To use the app open your favourite browser, I've been using Firefox <br>
   i. Run `taboolaWidget.html` <br>
   ii. Open dev tools in your browser (mac `⌥  + ⌘ + i`)<br>
   iii. Toggle device tool bar ( for responsiveness )<br>
 
 A screenshot example: (picture below)
+<div><img src="./public/responsive-screenshot.png" alt="taboola responsive widget"></div>
 
 ## User Stories
 I created the following user stories: <br>
@@ -54,6 +52,3 @@ I am comfortable working with Javascript now, which allows me to dedicate just a
 My approach: <br>
 - Read and understand the specification
 - Translate the specification into key user stories
-
-
-## Areas of Improvement
