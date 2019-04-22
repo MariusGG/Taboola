@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+  a h5 {
+    font-size: 1em;
+  }
+
+  #taboola-widgets {
+    grid-template-columns: none;
+    float: none;
+  }
+
+  img {
+    width: 80%;
+  }
+}
