@@ -69,10 +69,10 @@ function displayData(data) {
   });
 }
 
-// my truncate function to be used on the titles to limit it to 30 characters with an ellipsis (...)
+// my truncate function to be used on the titles to limit it to 40 characters with an ellipsis (...)
 function truncateTitle(title){
-   if (title.length > 5){
-    return title.substring(0,5)+'...';
+   if (title.length > 40){
+    return title.substring(0,40)+'...';
   }else{
       return title;
     }
