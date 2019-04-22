@@ -1,3 +1,0 @@
-describe('Taboola', function() {
-  
-})
